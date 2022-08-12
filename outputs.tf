@@ -12,3 +12,6 @@ output "aws_availability_zones" {
   description = "Available AZs"
   value = data.aws_availability_zones.available.names
 }
+
+
+
